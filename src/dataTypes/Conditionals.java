@@ -5,7 +5,7 @@ public class Conditionals {
 
         //if else statement
 
-        int x = 2434;
+        int x = 2332;
         int y =2352;
         int z = 100000;
 
@@ -19,7 +19,7 @@ public class Conditionals {
         }
 
 
-        //simple is else if
+        //simple if else if
 
         if(x==2434){
             System.out.println("print x 2434");
@@ -28,7 +28,7 @@ public class Conditionals {
         }
 
 
-        char c = 'f';
+        char c = 'e';
 
         if(c=='f'){
             System.out.println("its sunday");
@@ -36,7 +36,7 @@ public class Conditionals {
             System.out.println("its monday");
         }else if(c=='h'){
             System.out.println("its dull day");
-        }else{
+        } else{
             System.out.println("print nothing");
         }
 
@@ -44,8 +44,8 @@ public class Conditionals {
         // nested if and else
 
 
-        if(99>60){
-            if(9/3==3){
+        if(99>55){
+            if(9/3==4){
                 System.out.println("yes");
             }else{
                 System.out.println("no");
@@ -55,17 +55,17 @@ public class Conditionals {
         }
 
 
-        int j = 250;
+        int j = 150;
         if(j>100){
-            if(j<500){
-                if(j==456){
+            if(j<160){
+                if(j==150){
                     System.out.println("j is 456");
                 }else{
                     System.out.println("j is not 456");
                 }
-                if(j<250){
+                if(j<140){
                     System.out.println("I am in");
-                }else if(j>250){
+                }else if(j>140){
                     System.out.println("this is crazy");
                 }else{
                     System.out.println("i am dead");
