@@ -5,15 +5,14 @@ public class MyCars {
     public static void main(String[] args) {
 
 
-        Car sandyas = new Car();
-        sandyas.setBrand("Audi");
-        sandyas.setModel("Q6");
+        Car sandyas = new Car("Audi","q6");
         sandyas.setNumberOfGears(5);
         sandyas.setColor("White");
-
         System.out.println(sandyas.getBrand());
+        System.out.println(sandyas.getModel());
 
-        Car francis = new Car();
+
+        Car francis = new Car("Volkswagen","polo");
         francis.setBrand("Volkswagen");
         francis.setModel("polo");
         francis.setNumberOfGears(5);

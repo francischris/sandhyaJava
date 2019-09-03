@@ -8,12 +8,21 @@ public class Car {
     boolean manual;
     int numberOfGears;
 
+
+    public  Car(String brand,String model){
+        this.brand = brand;
+        this.model = model;
+    }
+
+
+
+
     public String getBrand() {
         return brand;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
+    public void setBrand(String myBrand) {
+        this.brand = myBrand;
     }
 
     public String getModel() {
