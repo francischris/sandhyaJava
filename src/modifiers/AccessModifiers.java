@@ -19,6 +19,7 @@ public class AccessModifiers {
 
 
     public int getPincode() {
+        int i = 100;
         return pincode;
     }
 
