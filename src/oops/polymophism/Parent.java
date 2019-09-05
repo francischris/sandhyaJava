@@ -5,10 +5,16 @@ public class Parent {
     int totalCash = 500;
     int totalGold = 5;
 
-    public String getParentsCash(){
+    public void getParentsCash(){
         System.out.println("Give all cash : " + totalCash);
-        return "hello";
+
     }
+
+    public void saveMoney(int money){
+        System.out.println("Saved money");
+    }
+
+
 
     public void getParentsCash(int value,String price){
         System.out.println("Give cash : " + value);
