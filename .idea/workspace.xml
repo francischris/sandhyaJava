@@ -36,20 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CarsExecute">
-    <configuration name="AllChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.inheritance.AllChild" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oops.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.CheckedException">
     <configuration name="CallerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oops.polymophism.CallerClass" />
       <module name="code" />
@@ -76,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objectAndClasses.MyCars" />
+    <configuration name="CheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.CheckedException" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="objectAndClasses.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,13 +89,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UncheckedExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.UncheckedExceptions" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckedException" />
+        <item itemvalue="Application.UncheckedExceptions" />
         <item itemvalue="Application.CarsExecute" />
         <item itemvalue="Application.SomeClassA" />
         <item itemvalue="Application.CallerClass" />
-        <item itemvalue="Application.AllChild" />
-        <item itemvalue="Application.MyCars" />
       </list>
     </recent_temporary>
   </component>
