@@ -36,20 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileReading">
-    <configuration name="CarsExecute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.abstractAndInterFace.CarsExecute" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oops.abstractAndInterFace.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sets">
     <configuration name="CheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.CheckedException" />
       <module name="code" />
@@ -76,12 +63,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SomeClassA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.StaticKeyWord.SomeClassA" />
+    <configuration name="Lists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.Lists" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.StaticKeyWord.*" />
+          <option name="PATTERN" value="collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.Sets" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sets" />
+        <item itemvalue="Application.Lists" />
         <item itemvalue="Application.FileReading" />
         <item itemvalue="Application.CheckedException" />
         <item itemvalue="Application.UncheckedExceptions" />
-        <item itemvalue="Application.CarsExecute" />
-        <item itemvalue="Application.SomeClassA" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +160,11 @@
           <url>file://$PROJECT_DIR$/src/fileHandling/FileReading.java</url>
           <line>10</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fileHandling/FileReading.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
