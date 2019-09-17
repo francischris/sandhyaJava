@@ -1,7 +1,6 @@
 package collections;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.*;
 
 public class Lists {
 
@@ -72,6 +71,30 @@ public class Lists {
         a.removeAll(b);
 
 
+        HashSet<HashSet<String>> set = new HashSet<>();
+
+        HashSet<String> set1 = new HashSet<>();
+
+        HashSet<String> set2 = new HashSet<>();
+
+        set1.add("Apple");
+        set1.add("Orange");
+        set2.add("banana");
+        set2.add("grapes");
+        set.add(set1);
+        set.add(set2);
+
+
+        System.out.println(set);
+
+        Iterator<HashSet<String>> iter = set.iterator();
+
+        while(iter.hasNext()){
+           Iterator iter1 = iter.next().iterator();
+           while (iter1.hasNext()){
+               System.out.println(iter1.next());
+           }
+        }
 
 
 
