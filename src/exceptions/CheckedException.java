@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.logging.FileHandler;
 
 public class CheckedException {
 
@@ -13,13 +12,13 @@ public class CheckedException {
 
 
       trycatch();
-      try {
-          throwsHandling();
-      }catch (Exception e){
-          e.printStackTrace();
-      }
-
-        System.out.println(throwableHander("Sandhya","password1234"));
+//      try {
+//          throwsHandling();
+//      }catch (Exception e){
+//          e.printStackTrace();
+//      }
+//
+//        System.out.println(throwableHander("Sandhya","password1234"));
 
 
     }
@@ -37,6 +36,8 @@ public class CheckedException {
             f.printStackTrace();
         }catch (InterruptedException i){
             i.printStackTrace();
+        }finally {
+            System.out.println("In finally block");
         }
 
 

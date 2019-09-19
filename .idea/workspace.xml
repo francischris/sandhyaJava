@@ -36,26 +36,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Maps">
+  <component name="RunManager" selected="Application.CheckedException">
     <configuration name="CheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.CheckedException" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileReading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fileHandling.FileReading" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fileHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,13 +89,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataTypes.StringBuilder" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataTypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckedException" />
+        <item itemvalue="Application.StringBuilder" />
         <item itemvalue="Application.Maps" />
         <item itemvalue="Application.Lists" />
         <item itemvalue="Application.Sets" />
-        <item itemvalue="Application.FileReading" />
-        <item itemvalue="Application.CheckedException" />
       </list>
     </recent_temporary>
   </component>

@@ -21,6 +21,17 @@ public class MyCars {
         System.out.println(francis.getBrand());
 
 
+        Car newCar = someMethod(sandyas);
+
+
+    }
+
+
+    public static Car someMethod(Car car){
+        System.out.println(car.model);
+        car.setNumberOfGears(3);
+        return car;
+
     }
 
 

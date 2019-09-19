@@ -1,3 +1,5 @@
+package dataTypes;
+
 public class StrinGs {
 
     public static void main(String[] args) {
