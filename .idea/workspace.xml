@@ -22,6 +22,10 @@
   <component name="ProjectId" id="1PhLjPZzA2nejeqh5iAqFkIfiEh" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../libraries/testng-6.7.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -36,79 +40,88 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckedException">
-    <configuration name="CheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.CheckedException" />
+  <component name="RunManager" selected="TestNG.C:/Users/caroline/Desktop/Sandhya/code/src/testNg/testng.xml">
+    <configuration name="C:/Users/caroline/Desktop/Sandhya/code/src/testNg/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testNg/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.Lists" />
+    <configuration name="TestNg" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testNg.TestNg" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.Maps" />
+    <configuration name="TestNgClassTwo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="testNg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testNg" />
+      <option name="MAIN_CLASS_NAME" value="testNg.TestNgClassTwo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.Sets" />
+    <configuration name="TestNg.runGroupBy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="testNg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testNg" />
+      <option name="MAIN_CLASS_NAME" value="testNg.TestNg" />
+      <option name="METHOD_NAME" value="runGroupBy" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataTypes.StringBuilder" />
+    <configuration name="TestNg.testTwo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataTypes.*" />
+          <option name="PATTERN" value="testNg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testNg" />
+      <option name="MAIN_CLASS_NAME" value="testNg.TestNg" />
+      <option name="METHOD_NAME" value="testTwo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CheckedException" />
-        <item itemvalue="Application.StringBuilder" />
-        <item itemvalue="Application.Maps" />
-        <item itemvalue="Application.Lists" />
-        <item itemvalue="Application.Sets" />
+        <item itemvalue="TestNG.C:/Users/caroline/Desktop/Sandhya/code/src/testNg/testng.xml" />
+        <item itemvalue="TestNG.TestNg.runGroupBy" />
+        <item itemvalue="TestNG.TestNg.testTwo" />
+        <item itemvalue="TestNG.TestNg" />
+        <item itemvalue="TestNG.TestNgClassTwo" />
       </list>
     </recent_temporary>
   </component>

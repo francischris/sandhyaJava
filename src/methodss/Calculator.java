@@ -1,5 +1,7 @@
 package methodss;
 
+import org.testng.annotations.Test;
+
 public class Calculator {
 
 
