@@ -34,7 +34,7 @@ public class TestNgClassTwo {
     @Test(priority = 200, timeOut = 5000l)
     public void testTwo() throws InterruptedException {
         System.out.println("My test two");
-        Thread.sleep(6000l);
+//        Thread.sleep(6000l);
     }
 
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="9" name="Failed suite [My First Testng Suit]">
+  <parameter name="password" value="Sandhya132"/>
+  <parameter name="username" value="Sandhya"/>
+  <test name="My First Test(failed)" preserve-order="true">
+    <classes>
+      <class name="testNg.ParameterTEstNg">
+        <methods>
+          <include name="addTwoNumbers"/>
+        </methods>
+      </class> <!-- testNg.ParameterTEstNg -->
+    </classes>
+  </test> <!-- My First Test(failed) -->
+</suite> <!-- Failed suite [My First Testng Suit] -->

@@ -26,7 +26,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,21 +40,53 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/caroline/Desktop/Sandhya/code/src/testNg/testng.xml">
+  <component name="RunManager" selected="TestNG.Assertions.testAsserts">
+    <configuration name="Assertions.testAsserts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNg" />
+      <option name="MAIN_CLASS_NAME" value="testNg.Assertions" />
+      <option name="METHOD_NAME" value="testAsserts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/caroline/Desktop/Sandhya/code/src/testNg/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testNg/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNg" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="code" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testNg.TestNg" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterTEstNg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNg" />
+      <option name="MAIN_CLASS_NAME" value="testNg.ParameterTEstNg" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -62,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNgClassTwo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterTEstNg.addTwoNumbers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
@@ -71,25 +103,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testNg" />
-      <option name="MAIN_CLASS_NAME" value="testNg.TestNgClassTwo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNg.runGroupBy" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testNg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testNg" />
-      <option name="MAIN_CLASS_NAME" value="testNg.TestNg" />
-      <option name="METHOD_NAME" value="runGroupBy" />
+      <option name="MAIN_CLASS_NAME" value="testNg.ParameterTEstNg" />
+      <option name="METHOD_NAME" value="addTwoNumbers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNg.testTwo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterTEstNg.testSingleString" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +121,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testNg" />
-      <option name="MAIN_CLASS_NAME" value="testNg.TestNg" />
-      <option name="METHOD_NAME" value="testTwo" />
+      <option name="MAIN_CLASS_NAME" value="testNg.ParameterTEstNg" />
+      <option name="METHOD_NAME" value="testSingleString" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,13 +130,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/caroline/Desktop/Sandhya/code/src/testNg/testng.xml" />
+      <item itemvalue="TestNG.ParameterTEstNg.testSingleString" />
+      <item itemvalue="TestNG.ParameterTEstNg.addTwoNumbers" />
+      <item itemvalue="TestNG.ParameterTEstNg" />
+      <item itemvalue="TestNG.Assertions.testAsserts" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Assertions.testAsserts" />
+        <item itemvalue="TestNG.ParameterTEstNg" />
         <item itemvalue="TestNG.C:/Users/caroline/Desktop/Sandhya/code/src/testNg/testng.xml" />
-        <item itemvalue="TestNG.TestNg.runGroupBy" />
-        <item itemvalue="TestNG.TestNg.testTwo" />
-        <item itemvalue="TestNG.TestNg" />
-        <item itemvalue="TestNG.TestNgClassTwo" />
+        <item itemvalue="TestNG.ParameterTEstNg.addTwoNumbers" />
+        <item itemvalue="TestNG.ParameterTEstNg.testSingleString" />
       </list>
     </recent_temporary>
   </component>

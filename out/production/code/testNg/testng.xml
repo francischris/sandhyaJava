@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="My First Testng Suit" verbose="1">
+<suite name="My First Testng Suit" verbose="1" parallel="false" thread-count="9">
+
+    <parameter name="username"  value="Sandhya"/>
+    <parameter name="password"  value="Sandhya132"/>
+
 
 <test name="My First Test" >
 <!--    <groups>-->
@@ -12,8 +16,23 @@
 
 
     <classes >
-        <class name="testNg.TestNgClassTwo"/>
-        <class name="testNg.TestNg"/>
+<!--        <class name="testNg.TestNgClassTwo"/>-->
+<!--        <class name="testNg.TestNg"/>-->
+        <class name="testNg.ParameterTEstNg"></class>
     </classes>
 </test>
+
+<!--    <test name="My Second Test" >-->
+<!--        &lt;!&ndash;    <groups>&ndash;&gt;-->
+<!--        &lt;!&ndash;        <run>&ndash;&gt;-->
+<!--        &lt;!&ndash;            <exclude name="sanity" />&ndash;&gt;-->
+<!--        &lt;!&ndash;        </run>&ndash;&gt;-->
+<!--        &lt;!&ndash;    </groups>&ndash;&gt;-->
+
+
+<!--        <classes >-->
+<!--&lt;!&ndash;            <class name="testNg.TestNgClassTwo"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="testNg.TestNg"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

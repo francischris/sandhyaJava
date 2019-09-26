@@ -1,9 +1,6 @@
 package testNg;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 
 public class ParentClass {
 
@@ -22,6 +19,18 @@ public class ParentClass {
     @AfterClass
     public void afterSuite(){
         System.out.println("in after suite");
+    }
+
+
+    @BeforeTest
+    public void beforeTest(){
+        System.out.println("Inside before tests");
+    }
+
+
+    @AfterTest
+    public void afterTest(){
+        System.out.println("Inside after tests");
     }
 
 
